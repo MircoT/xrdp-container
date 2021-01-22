@@ -24,7 +24,7 @@ xfreerdp /v:localhost:5000
 
 You should see something similar to the following screenshot:
 
-![FreeRDPLogin](img/FreeRDPLogin)
+![FreeRDPLogin](img/FreeRDPLogin.png)
 
 You can use user name and password `resu:resu` to start the desktop session:
 
