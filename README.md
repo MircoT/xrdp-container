@@ -32,7 +32,7 @@ You can use user name and password `resu:resu` to start the desktop session:
 
 **NOTE**: the container was tested also using [Microsoft Remote Desktop](https://www.microsoft.com/en-us/p/microsoft-remote-desktop/9wzdncrfj3ps?activetab=pivot:overviewtab)
 
-## :info: Container details
+## :information_source: Container details
 
 * The `supervisord` package is used to enable `dbus` and `xrdp` session manager to work correctly. In fact, they want that `dbus` is a child of the first process with **pid 0**. `supervisord` fulfills this and that's why it is also the **CMD** launched.
 * `whoopsie` is useful just in `ubuntu` based distribution to enable error reports and, consequently, catch `dbus` errors.
